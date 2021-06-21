@@ -6,7 +6,7 @@
 <?php
 if(isset($_POST['hours'])){
 
-    $hours = (int)$_POST['hours'];
+    $hours = (float)$_POST['hours'];
 
     $rate = $_POST['rate'];
     
